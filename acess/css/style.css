@@ -32,7 +32,7 @@ body {
 #menu {
     background-color: rgb(3, 3, 3);
     color: white;
-    height: 50px;
+    height: 30px;
     border-bottom: 3px solid rgb(0, 0, 0);
 
 }
@@ -41,16 +41,16 @@ body {
     list-style: none;
     text-decoration: none;
     margin: 0px auto;
-    margin-left: 25px;
+    margin-right: 5px;
 }
 #menu ul li{
-    line-height: 55px;
+    line-height:25px;
     float: left;
     border-right: 1px solid rgb(255, 255, 255);
 }
 #menu a{
     display: block;
-    color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
     text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
@@ -61,18 +61,46 @@ body {
 
 #content{
     margin: 0px auto;
-
-    background: white;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
 }
 
-
- /*barra lateral */
+/* barra lateral */
 #lateral{
-    width: 20px;
-    border:  1px solid red;
+    width: 19%;
+    min-height: 650px;
+    border: 1px solid rgb(82, 81, 81);
+    float:left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#lateral .block_aside{
+  display: block;
+  width: 90%;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+#lateral h3{
+  display: block;
+  color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgb(197, 201, 216);
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 #central{
     width: 80%;
-    border: 1px solid blue;
+    min-height: 650px;
+    border: 1px solid rgb(6, 22, 252);
+    float: right;
+    border: 1px solid black;
+    margin-top: 20px;
 }
