@@ -16,7 +16,7 @@ class Usuario{
     public $apellido;
     public $email;
     public $password;
-    public $rol:
+    public $rol;
     public $imagen;
 
     function getId_usuario(){
@@ -89,5 +89,9 @@ class Usuario{
 
     }
 
+    public function conseguirTodos(){
+        echo "IMPRIMIENDO TODOS LOS USUARIOS...";
+
+    }
 
 }
